@@ -1,6 +1,24 @@
+# Python environment
 .venv/
-sample_pdfs/
-output/
-.env
+venv/
+
+# Python cache
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+
+# Private client information
+Clients/
+testing/TEST_CLIENT/
+
+# Processing logs
+logs/
+*.log
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# Operating system files
+.DS_Store
+Thumbs.db
